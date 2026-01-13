@@ -50,12 +50,12 @@ class LFFMenu {
         $menu = InvMenu::create(InvMenu::TYPE_DOUBLE_CHEST);
         $menu->setName("§l§bLFF");
         $inventory = $menu->getInventory();
-        $inventory->setItem(11, self::getMenuItem('BARD', "§eBARD §7(CLASS)", ["§fThis Class Is Used To Grant \nEffects To Your Team"]));
-        $inventory->setItem(13, self::getMenuItem('ARCHER', "§6ARCHER §7(CLASS)", ["§fWhen Tagging With Your Bow\nThe Opponent Will Take 20% More Damage\nFrom You And Your Team"]));
-        $inventory->setItem(15, self::getMenuItem('DIAMOND', "§bDIAMOND §7(CLASS)", ["§fThis class is used to \ndefend and raid"]));
-        $inventory->setItem(29, self::getMenuItem('ROGUE', "§fROGUE §7(CLASS)", ["§fThis Class By Hitting With The Golden Sword\nYou Will Take Hearts From The Rival"]));
-        $inventory->setItem(31, self::getMenuItem('MAGUE', "§2MAGE §7(CLASS)", ["§f This Class Serves Very \nWell To Defend"]));
-        $inventory->setItem(33, self::getMenuItem('NINJA', "§0NINJA §7(CLASS)", ["§fThis class is used for stealth lovers and trap setters."]));
+        $inventory->setItem(11, self::getMenuItem('BARD', "§eBARD §7(CLASS)", ["§rThis Class Is Used To Grant \nEffects To Your Team"]));
+        $inventory->setItem(13, self::getMenuItem('ARCHER', "§6ARCHER §7(CLASS)", ["§rWhen Tagging With Your Bow\nThe Opponent Will Take 20% More Damage\nFrom You And Your Team"]));
+        $inventory->setItem(15, self::getMenuItem('DIAMOND', "§bDIAMOND §7(CLASS)", ["§rThis class is used to \ndefend and raid"]));
+        $inventory->setItem(29, self::getMenuItem('ROGUE', "§fROGUE §7(CLASS)", ["§rThis Class By Hitting With The Golden Sword\nYou Will Take Hearts From The Rival"]));
+        $inventory->setItem(31, self::getMenuItem('MAGUE', "§2MAGE §7(CLASS)", ["§rThis Class Serves Very \nWell To Defend"]));
+        $inventory->setItem(33, self::getMenuItem('NINJA', "§0NINJA §7(CLASS)", ["§rThis class is used for stealth lovers and trap setters."]));
         $inventory->setItem(49, self::getMenuItem('BACK', "§7BACK", ["§fExit LFF Menu"]));
 
         for ($i = 0; $i <= 53; $i++) {
