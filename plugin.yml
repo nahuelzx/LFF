@@ -1,0 +1,10 @@
+name: LFFSystem
+main: nahu\Main
+version: 1.0.0
+api: 5.0.0
+author: nahuelzx
+website: https://github.com/nahuelzx
+
+permissions:
+  lff.command:
+    default: true
